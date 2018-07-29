@@ -1,6 +1,7 @@
 # RSADemo
   
-RSA安全编码组件 1、生成公私钥对;     
+RSA安全编码组件  
+1、生成公私钥对;     
 Map<String, Object> keyMap = RSAUtil.initKey();   
 String publickey = RSAUtil.getPublicKey(keyMap);   
 String privatekey = RSAUtil.getPrivateKey(keyMap);   
